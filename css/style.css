@@ -19,9 +19,10 @@ body {
 .your-result {
 	background-color: rgba(96, 62, 252, 1);
 	width: 50%;
-	border-radius: 25px;
-	padding: 30px 0px;
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	color: #fffbfb;
 }
 .your-result-thema h1 {
@@ -74,7 +75,10 @@ body {
 /* summary */
 .summary {
 	width: 50%;
-	margin: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .summary-thema h1 {
 	margin: 0%;
@@ -185,6 +189,7 @@ body {
 	}
 	.summary {
 		width: 100%;
+		margin: 0%;
 	}
 	.summary-card li span {
 		color: rgba(0, 0, 0, 0.33);
